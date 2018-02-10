@@ -1,0 +1,369 @@
+{
+   "api_error_accountDisabled": {
+      "message": "Akun ini telah dinonaktifkan"
+   },
+   "api_error_apiDoesNotExist": {
+      "message": "Paket Download Station anda tidak berjalan atau telah terlalu tua"
+   },
+   "api_error_couldNotConnect": {
+      "message": "Tidak dapat menyambungkan ke DiskStation"
+   },
+   "api_error_destinationDenied": {
+      "message": "Pengguna ini tidak memiliki izin untuk menunduh ke folder tujuan"
+   },
+   "api_error_destinationDoesNotExist": {
+      "message": "Folder tujuan tidak ada"
+   },
+   "api_error_failedToAuthenticateVerificationCode": {
+      "message": "Pengguna ini memiliki dua langkah otentikasi yang diaktifkan. Ekstensi ini hanya mendukung akun tanpa dua langkah otentikasi."
+   },
+   "api_error_featureNotSupported": {
+      "message": "Paket Download Station anda tidak mendukung fitur ini"
+   },
+   "api_error_fileUploadFailed": {
+      "message": "Gagal mengunggah berkas ke Download Station"
+   },
+   "api_error_invalidParameter": {
+      "message": "Terjadi kesalahan yang tidak diketahui"
+   },
+   "api_error_invalidTaskAction": {
+      "message": "Aksi tidak terdukung untuk tugas ini"
+   },
+   "api_error_invalidUsernameOrPassword": {
+      "message": "Nama pengguna atau kata sandi salah"
+   },
+   "api_error_magnetTorrentNotFound": {
+      "message": "Tidak dapat menemukan berkas torrent pada magnet link"
+   },
+   "api_error_maxNumberOfTasksReached": {
+      "message": "Jumlah maksimal tugas pada Download Station telah tercapai"
+   },
+   "api_error_methodDoesNotExist": {
+      "message": "Paket Download Station anda tidak mendukung fitur ini"
+   },
+   "api_error_noDefaultDestinationSet": {
+      "message": "Tidak ada folder tujuan standar awal yang disetel untuk Download Station. Setel folder standar awal anda pada konfigurasi Download Station"
+   },
+   "api_error_permissionDenied": {
+      "message": "Pengguna ini tidak memiliki izin menggunakan Download Station"
+   },
+   "api_error_requiredApisNotAvailable": {
+      "message": "Paket Download Station anda tidak berjalan atau telah terlalu tua"
+   },
+   "api_error_twoStepVerificationCodeRequired": {
+      "message": "Pengguna ini memiliki dua langkah otentikasi yang diaktifkan. Ekstensi ini hanya mendukung akun tanpa dua langkah otentikasi."
+   },
+   "api_error_unknownError": {
+      "message": "Terjadi kesalahan yang tidak diketahui"
+   },
+   "btnAddTask": {
+      "message": "Tambah tugas"
+   },
+   "btnCancel": {
+      "message": "Batal"
+   },
+   "btnClearQueue": {
+      "message": "Hapus tugas yang telah selesai"
+   },
+   "btnOpenDownloadStation": {
+      "message": "Buka antamuka web Download Station"
+   },
+   "btnPause": {
+      "message": "Hentikan sementara"
+   },
+   "btnPauseAll": {
+      "message": "Hentikan sementara semuanya"
+   },
+   "btnRemove": {
+      "message": "Hapus"
+   },
+   "btnResume": {
+      "message": "Lanjut"
+   },
+   "btnResumeAll": {
+      "message": "Lanjut semua"
+   },
+   "btnSaveSettings": {
+      "message": "Simpan setelan"
+   },
+   "btnStartSeeding": {
+      "message": "Mulai seeding"
+   },
+   "btnTestConnection": {
+      "message": "Tes koneksi"
+   },
+   "chromeExtensionName": {
+      "message": "Synology Download Station untuk Google Chrome™"
+   },
+   "clickToConfigure": {
+      "message": "Klik di sini untuk masuk ke setelan koneksi anda."
+   },
+   "contextMenuDownloadAdvanced": {
+      "message": "Unduhan dimutakhirkan…"
+   },
+   "contextMenuDownloadOn": {
+      "message": "Unduh ke $deviceName$",
+      "placeholders": {
+         "deviceName": {
+            "content": "$1",
+            "example": "MyDiskStation"
+         }
+      }
+   },
+   "dialogAdvancedBtnAddDownload": {
+      "message": "Tambah unduhan"
+   },
+   "dialogAdvancedBtnCancel": {
+      "message": "Batal"
+   },
+   "dialogAdvancedLblPassword": {
+      "message": "Kata sandi"
+   },
+   "dialogAdvancedLblUnzipPassword": {
+      "message": "kata sandi untuk Unzip"
+   },
+   "dialogAdvancedLblUrls": {
+      "message": "URL's"
+   },
+   "dialogAdvancedLblUsername": {
+      "message": "Nama pengguna"
+   },
+   "dialogAdvancedTitle": {
+      "message": "Tambah unduhan"
+   },
+   "dialogAdvancedTooltipPassword": {
+      "message": "Kata sandi HTTP atau FTP (opsional)"
+   },
+   "dialogAdvancedTooltipUnzipPassword": {
+      "message": "Masukkan kata sandi untuk mengekstrak berkas terkompresi (opsional, auto-ekstraksi bisa diaktifkan pada setelan Download Station)"
+   },
+   "dialogAdvancedTooltipUnzipPasswordUnsupportedMessage": {
+      "message": "Versi DSM anda tidak mendukung kata sandi unzip. Anda membutuhkan DSM 4.2 atau diatasnya untuk bisa memasukkan kata sandi unzip."
+   },
+   "dialogAdvancedTooltipUrls": {
+      "message": "Masukkan tiap URL pada baris baru atau dipisahkan dengan spasi"
+   },
+   "dialogAdvancedTooltipUsername": {
+      "message": "Nama pengguna HTTP atau FTP (opsional)"
+   },
+   "donationNotification": {
+      "message": "Ini adalah ekstensi gratis, tetapi pengembangannya menghabiskan banyak waktu. Mohon pertimbangkan mendonasi untuk mendukung ekstensi ini. Klik di sini untuk melakukan donasi"
+   },
+   "downloadFinished": {
+      "message": "Unduhan selesai"
+   },
+   "downloadTaskAccepted": {
+      "message": "Tugas unduh diterima"
+   },
+   "downloadTaskAdding": {
+      "message": "Menambahkan tugas.."
+   },
+   "downloadTaskNotAccepted": {
+      "message": "Gagal menambahkan tugas unduh"
+   },
+   "downloadsFinished": {
+      "message": "Semua unduhan selesai"
+   },
+   "lblDomain": {
+      "message": "Domain atau IP"
+   },
+   "lblEmail": {
+      "message": "E-mail"
+   },
+   "lblHideSeedingTorrents": {
+      "message": "Sembunyikan torrents yang seeding"
+   },
+   "lblOpenWithDownloadStation": {
+      "message": "Buka dengan Download Station"
+   },
+   "lblPassword": {
+      "message": "Kata sandi"
+   },
+   "lblPort": {
+      "message": "Port"
+   },
+   "lblProtocol": {
+      "message": "Protokol"
+   },
+   "lblRefreshInterval": {
+      "message": "Interval pembaharuan (detik)"
+   },
+   "lblUpdateInBackground": {
+      "message": "Perbaharu status unduhan di latar belakang (dibutuhkan untuk notifikasi)"
+   },
+   "lblUsername": {
+      "message": "Nama pengguna"
+   },
+   "loggingIn": {
+      "message": "Menyambungkan.."
+   },
+   "maxNumberOfTasksWarning": {
+      "message": "Download Station mempunyai lebih dari $limit$ unduhan. Item baru hanya akan ditampilkan ketika anda menghapus yang lama",
+      "placeholders": {
+         "limit": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "newVersionAvailable": {
+      "message": "Versi terbaru dari ekstensi Synology Download Station telah tersedia. Klik di sini untuk mengunduh versi terakhir."
+   },
+   "noActiveTasks": {
+      "message": "Tidak ada tugas unduh yang aktif."
+   },
+   "numberTasksFinished": {
+      "message": "$numberOfTasks$ tugas yang telah selesai",
+      "placeholders": {
+         "numberOfTasks": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "placeholderDomain": {
+      "message": "contoh: syno.example.com atau 10.0.0.1"
+   },
+   "progressOf": {
+      "message": "$downloadedSize$ dari $totalSize$",
+      "placeholders": {
+         "downloadedSize": {
+            "content": "$1",
+            "example": "13.54MB"
+         },
+         "totalSize": {
+            "content": "$2",
+            "example": "20MB"
+         }
+      }
+   },
+   "settingsGroupConnection": {
+      "message": "Koneksi"
+   },
+   "settingsGroupHelp": {
+      "message": "Bantuan"
+   },
+   "settingsGroupOther": {
+      "message": "Setelan lainnya"
+   },
+   "settingsSaved": {
+      "message": "Setelan telah disimpan"
+   },
+   "settingsSavedMessage": {
+      "message": "Perubahan anda telah berhasil disimpan dengan sukses."
+   },
+   "task_status_broken_link": {
+      "message": "Tautan rusak"
+   },
+   "task_status_destination_denied": {
+      "message": "Akses ke folder tujuan ditolak"
+   },
+   "task_status_destination_not_exist": {
+      "message": "Folder tujuan tidak ada"
+   },
+   "task_status_disk_full": {
+      "message": "Disk penuh"
+   },
+   "task_status_downloading": {
+      "message": "Mengunduh"
+   },
+   "task_status_error": {
+      "message": "Terjadi kesalahan"
+   },
+   "task_status_extract_failed": {
+      "message": "Ekstraksi gagal"
+   },
+   "task_status_extract_failed_disk_full": {
+      "message": "Ekstraksi gagal: disk penuh"
+   },
+   "task_status_extract_failed_invalid_archive": {
+      "message": "Ekstraksi gagal: arsip tidak valid"
+   },
+   "task_status_extract_failed_quota_reached": {
+      "message": "Ekstraksi gagal: telah mencapai kuota"
+   },
+   "task_status_extract_failed_wrong_password": {
+      "message": "Ekstraksi gagal: kata sandi salah"
+   },
+   "task_status_extracting": {
+      "message": "Mengekstraksi"
+   },
+   "task_status_file_not_exist": {
+      "message": "Berkas tidak ada"
+   },
+   "task_status_filehosting_waiting": {
+      "message": "Menunggu untuk mengunduh"
+   },
+   "task_status_finished": {
+      "message": "Tuntas"
+   },
+   "task_status_finishing": {
+      "message": "Menyelesaikan"
+   },
+   "task_status_hash_checking": {
+      "message": "Memeriksa"
+   },
+   "task_status_paused": {
+      "message": "Dihentikan sementara"
+   },
+   "task_status_quota_reached": {
+      "message": "Kuota tercapai"
+   },
+   "task_status_required_premium_account": {
+      "message": "Dibutuhkan akun premium"
+   },
+   "task_status_seeding": {
+      "message": "Seeding"
+   },
+   "task_status_timeout": {
+      "message": "Koneksi time-out"
+   },
+   "task_status_torrent_duplicate": {
+      "message": "Duplikat torrent"
+   },
+   "task_status_torrent_invalid": {
+      "message": "Torrent tidak valid"
+   },
+   "task_status_unknown": {
+      "message": "Status tidak diketahui"
+   },
+   "task_status_waiting": {
+      "message": "Menunggu.."
+   },
+   "testDialogFailed": {
+      "message": "Tes gagal"
+   },
+   "testDialogSuccess": {
+      "message": "Koneksi berhasil"
+   },
+   "testResultSuccess": {
+      "message": "Koneksi anda berhasil! Simpan setelan anda untuk memulai menggunakan ekstensi ini."
+   },
+   "textDirection": {
+      "message": "ltr"
+   },
+   "tooltipDomain": {
+      "message": "Domain atau alamat IP dari DiskStation anda. Ini bisa berupa alamat IP internal atau eksternal (contoh: 10.0.0.1). Masukkan domainnya tanpa http:// atau https:// (contoh: syno.example.com)"
+   },
+   "tooltipEmail": {
+      "message": "Anda dapat memasukkan alamat e-mail anda jika anda telah melakukan donasi menggunakan Paypal. Ini akan menonaktifkan notifikasi bulanan."
+   },
+   "tooltipOpenWithDownloadStation": {
+      "message": "Gunakan ekstensi Download Station untuk membuka tipe terpilih di bawah ini"
+   },
+   "tooltipPort": {
+      "message": "Ini adalah port yang sama yang anda gunakan untuk mengakses DSM. Port standar awal adalah 5000 untuk HTTP dan 5001 untuk HTTPS. Anda perlu meneruskan port ini jika anda ingin menggunakan ekstensi ini ketika anda sedang tidak terkoneksi ke jaringan yang sama dengan DiskStation anda."
+   },
+   "tooltipProtocol": {
+      "message": "Tentukan jika anda ingin menggunakan HTTP atau HTTPS terlindungi. HTTPS harus sudah dipilih di DSM dan juga mendukung semua versi dari DSM kecuali DSM4.0-2166, 2197 dan 2198. Perbaharui DiskStation anda jika anda mempunyai salah satu dari ketiga versi tersebut."
+   },
+   "tooltipUsername": {
+      "message": "Masukkan Nama Pengguna untuk akun DiskStation anda. Akun ini harus sudah memiliki izin untuk menggunakan Download Station"
+   },
+   "urlFormAddBtn": {
+      "message": "Tambah"
+   },
+   "urlInputPlaceholder": {
+      "message": "Masukkan URL unduhan"
+   }
+}

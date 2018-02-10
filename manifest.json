@@ -1,0 +1,46 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "info@download-station-extension.com"
+      }
+   },
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "Icon-19-disconnected.png",
+         "38": "Icon-38-disconnected.png"
+      },
+      "default_popup": "popover.html",
+      "default_title": "__MSG_chromeExtensionName__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/cssreset-context-min.css", "css/hud.css" ],
+      "js": [ "js/lib/jquery.js", "js/browser-functions.js", "js/content-scripts/content.js" ],
+      "matches": [ "<all_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_chromeExtensionDescription__",
+   "homepage_url": "http://www.download-station-extension.com/",
+   "icons": {
+      "128": "Icon-128.png",
+      "16": "Icon-16.png",
+      "32": "Icon-32.png",
+      "48": "Icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtuWMczSBAVn0vRjnWM07k0Ot7qNw976JwnUlyyOJAerS0lFqAtDngQk5caayOoXu0+cqTQicpohj0Ice1AB3/6isFr0pFj5krWClCofdQN3M4MH/4E1uv8NfUqk0p1UstrO+JXGtLjqV5rGn6CmSAA6tlhIwhBOgTjxhNV91RmQIDAQAB",
+   "manifest_version": 2,
+   "name": "Synology Download Station",
+   "options_page": "options.html",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "http://*/", "https://*/", "background", "notifications", "contextMenus", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.13",
+   "web_accessible_resources": [ "Icon-16.png", "Icon-19.png", "Icon-38.png", "Icon-48.png", "Icon-128.png", "css/img/hud-check.png", "css/img/hud-cross.png", "css/img/hud-progress.png", "css/img/icon-black.png", "css/img/icon-black@2x.png", "download-dialog.html" ]
+}

@@ -1,0 +1,375 @@
+{
+   "api_error_accountDisabled": {
+      "message": "Detta konto är inaktiverat."
+   },
+   "api_error_apiDoesNotExist": {
+      "message": "Download Station är inte startad, eller så är versionen för gammal."
+   },
+   "api_error_couldNotConnect": {
+      "message": "Kunde inte ansluta till DiskStation."
+   },
+   "api_error_destinationDenied": {
+      "message": "Denna användare har inte rättigheter för att starta hämtningar till vald målmapp."
+   },
+   "api_error_destinationDoesNotExist": {
+      "message": "Målmappen existerar inte."
+   },
+   "api_error_failedToAuthenticateVerificationCode": {
+      "message": "Användaren har två-stegs inloggning/verifiering aktiverat. Detta tillägg stödjer endast konton utan just två-stegs inloggning."
+   },
+   "api_error_featureNotSupported": {
+      "message": "Nuvarande version av Download Station har inget stöd för denna funktion."
+   },
+   "api_error_fileUploadFailed": {
+      "message": "Fel: Gick ej att överföra filen till Download Station."
+   },
+   "api_error_invalidParameter": {
+      "message": "Ett okänt fel uppstod."
+   },
+   "api_error_invalidTaskAction": {
+      "message": "Åtgärden stöds inte för denna uppgift"
+   },
+   "api_error_invalidUsernameOrPassword": {
+      "message": "Felaktigt användarnamn eller lösenord."
+   },
+   "api_error_magnetTorrentNotFound": {
+      "message": "Det gick inte att hitta en torrent-fil på vald magnet-länk"
+   },
+   "api_error_maxNumberOfTasksReached": {
+      "message": "Den maximala mängden av hämtningar på Download Station har uppnåtts."
+   },
+   "api_error_methodDoesNotExist": {
+      "message": "Din version av Download Station stödjer ej denna funktion."
+   },
+   "api_error_noDefaultDestinationSet": {
+      "message": "Det finns ingen standardmapp inställd i Download Station. Ställ in en standardmapp i Download Station's konfiguration."
+   },
+   "api_error_permissionDenied": {
+      "message": "Denna användaren har inga rättigheter för att använda Download Station."
+   },
+   "api_error_requiredApisNotAvailable": {
+      "message": "Download Station är inte startad, eller en för gammal version."
+   },
+   "api_error_twoStepVerificationCodeRequired": {
+      "message": "Användaren har två-stegs inloggning/verifiering aktiverat. Detta tillägget stödjer endast konton utan två-stegs inloggning."
+   },
+   "api_error_unknownError": {
+      "message": "Ett okänt fel har uppstått."
+   },
+   "btnAddTask": {
+      "message": "Lägg till ny hämtning"
+   },
+   "btnCancel": {
+      "message": "Avbryt"
+   },
+   "btnClearQueue": {
+      "message": "Rensa färdiga hämtningar"
+   },
+   "btnOpenDownloadStation": {
+      "message": "Öppna Download Stations webbinterface"
+   },
+   "btnPause": {
+      "message": "Pausa"
+   },
+   "btnPauseAll": {
+      "message": "Pausa alla"
+   },
+   "btnRemove": {
+      "message": "Radera"
+   },
+   "btnResume": {
+      "message": "Återuppta"
+   },
+   "btnResumeAll": {
+      "message": "Återuppta alla"
+   },
+   "btnSaveSettings": {
+      "message": "Spara inställningar"
+   },
+   "btnStartSeeding": {
+      "message": "Starta delning"
+   },
+   "btnTestConnection": {
+      "message": "Anslutningstest"
+   },
+   "chromeExtensionDescription": {
+      "message": "Hantera hämtningarna på din Synology DiskStation med din webbläsare."
+   },
+   "chromeExtensionName": {
+      "message": "Synology Download Station för Google Chrome™"
+   },
+   "clickToConfigure": {
+      "message": "Klicka här för att fylla i anslutningsinställningarna."
+   },
+   "contextMenuDownloadAdvanced": {
+      "message": "Avancerad hämtning…"
+   },
+   "contextMenuDownloadOn": {
+      "message": "Hämta ner på $deviceName$",
+      "placeholders": {
+         "deviceName": {
+            "content": "$1",
+            "example": "MyDiskStation"
+         }
+      }
+   },
+   "dialogAdvancedBtnAddDownload": {
+      "message": "Lägg till hämtning"
+   },
+   "dialogAdvancedBtnCancel": {
+      "message": "Avbryt"
+   },
+   "dialogAdvancedLblPassword": {
+      "message": "Lösenord"
+   },
+   "dialogAdvancedLblUnzipPassword": {
+      "message": "Unzip lösenord"
+   },
+   "dialogAdvancedLblUrls": {
+      "message": "Adresser (URL's)"
+   },
+   "dialogAdvancedLblUsername": {
+      "message": "Användarnamn"
+   },
+   "dialogAdvancedTitle": {
+      "message": "Lägg till hämtning"
+   },
+   "dialogAdvancedTooltipPassword": {
+      "message": "HTTP eller FTP lösenord (valfritt)"
+   },
+   "dialogAdvancedTooltipUnzipPassword": {
+      "message": "Ange lösenordet för uppackning av komprimerade filer (Valfritt, automatisk uppackning kan aktiveras i Download Stations inställningar)"
+   },
+   "dialogAdvancedTooltipUnzipPasswordUnsupportedMessage": {
+      "message": "Versionen av din DSM stödjer inte Unzip lösenord. Du behöver DSM v4.2 eller nyare version för detta."
+   },
+   "dialogAdvancedTooltipUrls": {
+      "message": "Lägg till varje adress(URL) på en ny rad, eller separerade med mellanslag"
+   },
+   "dialogAdvancedTooltipUsername": {
+      "message": "HTTP eller FTP användarnamn (valfritt)"
+   },
+   "donationNotification": {
+      "message": "Detta tillägg är gratis,men utvecklingen av det tar mycket dyrbar tid. Var så snäll att överväga en donation för att stödja tillägget och dess utveckling! Klicka för att göra en donation!"
+   },
+   "downloadFinished": {
+      "message": "Hämtningen slutfördes"
+   },
+   "downloadTaskAccepted": {
+      "message": "Hämtningsuppgiften accepterades"
+   },
+   "downloadTaskAdding": {
+      "message": "Lägger till hämtning.."
+   },
+   "downloadTaskNotAccepted": {
+      "message": "Fel: Misslyckades med att lägga till hämtningsuppgift"
+   },
+   "downloadsFinished": {
+      "message": "Hämtningarna är slutförda"
+   },
+   "lblDomain": {
+      "message": "Domän eller IP-adress"
+   },
+   "lblEmail": {
+      "message": "E-mail"
+   },
+   "lblHideSeedingTorrents": {
+      "message": "Dölj torrents som delas."
+   },
+   "lblOpenWithDownloadStation": {
+      "message": "Öppna med Download Station"
+   },
+   "lblPassword": {
+      "message": "Lösenord"
+   },
+   "lblPort": {
+      "message": "Port"
+   },
+   "lblProtocol": {
+      "message": "Protokoll"
+   },
+   "lblRefreshInterval": {
+      "message": "Uppdateringsintervall (Anges i sekunder)"
+   },
+   "lblUpdateInBackground": {
+      "message": "Uppdatera hämtningsstatus i bakgrunden (Detta krävs för att kunna få notifieringar)."
+   },
+   "lblUsername": {
+      "message": "Användarnamn"
+   },
+   "loggingIn": {
+      "message": "Loggar in.."
+   },
+   "maxNumberOfTasksWarning": {
+      "message": "Dowload Station har mer än $limit$ hämtningar. Nya hämtningar visas endast när du har tagit bort gamla hämtningar.",
+      "placeholders": {
+         "limit": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "newVersionAvailable": {
+      "message": "En nyare version av Synology Download Station tillägget är tillgängligt! Klicka här för att hämta den senaste versionen."
+   },
+   "noActiveTasks": {
+      "message": "Inga aktiva hämtningar"
+   },
+   "numberTasksFinished": {
+      "message": "$numberOfTasks$ hämtningar är slutförda",
+      "placeholders": {
+         "numberOfTasks": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "placeholderDomain": {
+      "message": "t ex. syno.example.com eller 10.0.0.1"
+   },
+   "progressOf": {
+      "message": "$downloadedSize$ av $totalSize$",
+      "placeholders": {
+         "downloadedSize": {
+            "content": "$1",
+            "example": "13.54MB"
+         },
+         "totalSize": {
+            "content": "$2",
+            "example": "20MB"
+         }
+      }
+   },
+   "settingsGroupConnection": {
+      "message": "Anslutning"
+   },
+   "settingsGroupHelp": {
+      "message": "Hjälp"
+   },
+   "settingsGroupOther": {
+      "message": "Övriga inställningar"
+   },
+   "settingsSaved": {
+      "message": "Inställningarna sparades!"
+   },
+   "settingsSavedMessage": {
+      "message": "Ändringar sparades!"
+   },
+   "task_status_broken_link": {
+      "message": "Trasig länk"
+   },
+   "task_status_destination_denied": {
+      "message": "Åtkomst till destinationsmapp nekades"
+   },
+   "task_status_destination_not_exist": {
+      "message": "Destinationsmappen existerar inte"
+   },
+   "task_status_disk_full": {
+      "message": "Hårddisken är full"
+   },
+   "task_status_downloading": {
+      "message": "Hämtar"
+   },
+   "task_status_error": {
+      "message": "Fel"
+   },
+   "task_status_extract_failed": {
+      "message": "Uppackningen misslyckades"
+   },
+   "task_status_extract_failed_disk_full": {
+      "message": "Uppackningen misslyckades: Hårddisken är full"
+   },
+   "task_status_extract_failed_invalid_archive": {
+      "message": "Uppackningen misslyckades: Trasigt fil"
+   },
+   "task_status_extract_failed_quota_reached": {
+      "message": "Uppackningen misslyckades: kvoten är utnyttjad"
+   },
+   "task_status_extract_failed_wrong_password": {
+      "message": "Uppackningen misslyckades: Fel lösenord"
+   },
+   "task_status_extracting": {
+      "message": "Packar upp"
+   },
+   "task_status_file_not_exist": {
+      "message": "Filen existerar inte"
+   },
+   "task_status_filehosting_waiting": {
+      "message": "Väntar på hämtning"
+   },
+   "task_status_finished": {
+      "message": "Färdig"
+   },
+   "task_status_finishing": {
+      "message": "Slutför"
+   },
+   "task_status_hash_checking": {
+      "message": "Kontrollerar"
+   },
+   "task_status_missing_python": {
+      "message": "Python paketet är inte installerat"
+   },
+   "task_status_paused": {
+      "message": "Pausad"
+   },
+   "task_status_quota_reached": {
+      "message": "Kvoten har uppnåtts"
+   },
+   "task_status_required_premium_account": {
+      "message": "Premium-konto behövs"
+   },
+   "task_status_seeding": {
+      "message": "Delar"
+   },
+   "task_status_timeout": {
+      "message": "Anslutnings time-out"
+   },
+   "task_status_torrent_duplicate": {
+      "message": "Dubblett av torrent"
+   },
+   "task_status_torrent_invalid": {
+      "message": "Ogiltig torrent"
+   },
+   "task_status_unknown": {
+      "message": "Okänd status"
+   },
+   "task_status_waiting": {
+      "message": "Väntar"
+   },
+   "testDialogFailed": {
+      "message": "Fel: Testet misslyckades"
+   },
+   "testDialogSuccess": {
+      "message": "Anslutningen lyckades!"
+   },
+   "testResultSuccess": {
+      "message": "Anslutningen lyckades! Spara inställningarna för att börja använda detta tillägg!"
+   },
+   "textDirection": {
+      "message": "vth"
+   },
+   "tooltipDomain": {
+      "message": "Domänen eller IP-adressen till din DiskStation. Detta kan vara en intern(t ex. 192.168.0.1) eller extern IP-adress (t.ex. 10.0.0.1). Ange domänen utan http:// eller https:// (t.ex. syno.example.com)"
+   },
+   "tooltipEmail": {
+      "message": "Du kan ange din e-mail adress dock bara om du gjort en donation med PayPal. Detta inaktiverar också påminnelsen varje månad."
+   },
+   "tooltipOpenWithDownloadStation": {
+      "message": "Använd detta Download Station tillägg för att öppna nedan valda filer/protokoll."
+   },
+   "tooltipPort": {
+      "message": "Det är samma port som du använder för att nå din DSM. Den förvalda porten är 5000 för HTTP och 5001 för HTTPS. Du kommer att behöva vidarebefordra denna port i din router om du vill använda detta tillägget när du inte är ansluten till samma nätverk som din DiskStation."
+   },
+   "tooltipProtocol": {
+      "message": "Ange om du vill använda HTTP eller säker anslutning med HTTPS. HTTPS måste dock vara aktiverat på din DSM. Säker anlutning stöds på nästan alla versioner av DSM, förutom DSM 4.0-2166, 2197 och 2198. Uppdatera din DiskStation om du har någon av dessa versioner!"
+   },
+   "tooltipUsername": {
+      "message": "Ange användarnamnet till din DiskStation. Detta Konto måste ha tillstånd att använda Download Station."
+   },
+   "urlFormAddBtn": {
+      "message": "Lägg till"
+   },
+   "urlInputPlaceholder": {
+      "message": "Ange en URL för hämtning"
+   }
+}

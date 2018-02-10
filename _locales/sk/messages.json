@@ -1,0 +1,375 @@
+{
+   "api_error_accountDisabled": {
+      "message": "Tento účet je deaktivovaný."
+   },
+   "api_error_apiDoesNotExist": {
+      "message": "Váš balíček Download Station nie je spustený alebo je zastaralý."
+   },
+   "api_error_couldNotConnect": {
+      "message": "Nemôžem sa pripojiť k serveru DiskStation"
+   },
+   "api_error_destinationDenied": {
+      "message": "Tento užívateľ nemá oprávnenie preberať do zvoleného cieľového adresára."
+   },
+   "api_error_destinationDoesNotExist": {
+      "message": "Cieľový adresár neexistuje."
+   },
+   "api_error_failedToAuthenticateVerificationCode": {
+      "message": "Tento užívateľ má zapnutú dvoj-krokovú autentifikácia. Rozšírenie podporuje len účty bez dvoj-krokovej autentifikácie."
+   },
+   "api_error_featureNotSupported": {
+      "message": "Verzia Vášho Download Station nepodporuje toto rozšírenie."
+   },
+   "api_error_fileUploadFailed": {
+      "message": "nebolo možné odoslať súbor na Downlaod Station."
+   },
+   "api_error_invalidParameter": {
+      "message": "Nastala neznáma chyba - neplatný parameter."
+   },
+   "api_error_invalidTaskAction": {
+      "message": "Akcia nie je podporovaná pre túto úlohu."
+   },
+   "api_error_invalidUsernameOrPassword": {
+      "message": "Nesprávne meno alebo heslo."
+   },
+   "api_error_magnetTorrentNotFound": {
+      "message": "Nie je možné nájsť torrent súbor pre magnetický odkaz."
+   },
+   "api_error_maxNumberOfTasksReached": {
+      "message": "Bol dosiahnutý maximálny počet úloh na Download Station."
+   },
+   "api_error_methodDoesNotExist": {
+      "message": "Verzia Vášho Download Station nepodporuje toto rozšírenie."
+   },
+   "api_error_noDefaultDestinationSet": {
+      "message": "Nie je nastavený predvolený cieľový adresár pre Download Station. Nastavte predvolený adresár v nastaveniach Download Station."
+   },
+   "api_error_permissionDenied": {
+      "message": "Tento užívateľ nemá dostatočné práva na používanie Download Station."
+   },
+   "api_error_requiredApisNotAvailable": {
+      "message": "Váš balíček Download Station nie je spustený alebo je zastaralý."
+   },
+   "api_error_twoStepVerificationCodeRequired": {
+      "message": "Tento užívateľ má zapnutú dvoj-krokovú autentifikácia. Rozšírenie podporuje len účty bez dvoj-krokovej autentifikácie."
+   },
+   "api_error_unknownError": {
+      "message": "Nastala neznáma chyba"
+   },
+   "btnAddTask": {
+      "message": "Pridať úlohu"
+   },
+   "btnCancel": {
+      "message": "Zrušiť"
+   },
+   "btnClearQueue": {
+      "message": "Vyčistiť dokončené úlohy"
+   },
+   "btnOpenDownloadStation": {
+      "message": "Otvoriť webové rozhranie aplikácie Download Station"
+   },
+   "btnPause": {
+      "message": "Pauza"
+   },
+   "btnPauseAll": {
+      "message": "Pozastaviť všetko"
+   },
+   "btnRemove": {
+      "message": "Odstrániť"
+   },
+   "btnResume": {
+      "message": "Pokračovať"
+   },
+   "btnResumeAll": {
+      "message": "Pokračovať všetko"
+   },
+   "btnSaveSettings": {
+      "message": "Uložiť nastavenia"
+   },
+   "btnStartSeeding": {
+      "message": "Začať seedovať"
+   },
+   "btnTestConnection": {
+      "message": "Otestovať spojenie"
+   },
+   "chromeExtensionDescription": {
+      "message": "Správa preberania na vašom Synology DiskStation vo vašom prehliadači."
+   },
+   "chromeExtensionName": {
+      "message": "Synology Download Station pre Google Chrome™"
+   },
+   "clickToConfigure": {
+      "message": "Kliknite sem na vloženie nastavení spojenia."
+   },
+   "contextMenuDownloadAdvanced": {
+      "message": "Pokročilé preberanie"
+   },
+   "contextMenuDownloadOn": {
+      "message": "Stiahnúť na $deviceName$",
+      "placeholders": {
+         "deviceName": {
+            "content": "$1",
+            "example": "MyDiskStation"
+         }
+      }
+   },
+   "dialogAdvancedBtnAddDownload": {
+      "message": "Pridať preberanie"
+   },
+   "dialogAdvancedBtnCancel": {
+      "message": "Zrušiť"
+   },
+   "dialogAdvancedLblPassword": {
+      "message": "Heslo"
+   },
+   "dialogAdvancedLblUnzipPassword": {
+      "message": "Heslo na rozbalenie"
+   },
+   "dialogAdvancedLblUrls": {
+      "message": "Sieťové odkazy (URLs)"
+   },
+   "dialogAdvancedLblUsername": {
+      "message": "Užívateľské meno"
+   },
+   "dialogAdvancedTitle": {
+      "message": "Pridajte preberanie"
+   },
+   "dialogAdvancedTooltipPassword": {
+      "message": "HTTP alebo FTP meno užívateľa (voliteľné)"
+   },
+   "dialogAdvancedTooltipUnzipPassword": {
+      "message": "Vložte heslo na rozbalenie komprimovaných súborov (voliteľné, automatické rozbaľovanie môže zapnuté v nastaveniach Download Station)"
+   },
+   "dialogAdvancedTooltipUnzipPasswordUnsupportedMessage": {
+      "message": "Vaša verzia DSM nepodporuje heslé na rozbaľovanie. Potrebujete DSM 4.2 alebo novší abz ste mohli vložiť heslo na rozbaľovanie."
+   },
+   "dialogAdvancedTooltipUrls": {
+      "message": "Vložte každú odkaz na nový riadok alebo oddeľte medzerou"
+   },
+   "dialogAdvancedTooltipUsername": {
+      "message": "HTTP alebo FTP meno užívateľa (voliteľné)"
+   },
+   "donationNotification": {
+      "message": "Toto rozšírenie je zdarma ale vývoj stojí mnoho času. prosím zvážte príspevok na podporu tohoto rozšírenia. Kliknite sem ak si prajete prispieť."
+   },
+   "downloadFinished": {
+      "message": "Sťahovanie dokončené"
+   },
+   "downloadTaskAccepted": {
+      "message": "Úloha sťahovania akceptovaná"
+   },
+   "downloadTaskAdding": {
+      "message": "Pridávanie úlohy..."
+   },
+   "downloadTaskNotAccepted": {
+      "message": "Nebolo možné pridať úlohu preberania"
+   },
+   "downloadsFinished": {
+      "message": "Sťahovania dokončené"
+   },
+   "lblDomain": {
+      "message": "Doména alebo IP"
+   },
+   "lblEmail": {
+      "message": "E-mail"
+   },
+   "lblHideSeedingTorrents": {
+      "message": "Skryť seeding torrenty."
+   },
+   "lblOpenWithDownloadStation": {
+      "message": "Otvoriť s Download Station"
+   },
+   "lblPassword": {
+      "message": "Heslo"
+   },
+   "lblPort": {
+      "message": "Port"
+   },
+   "lblProtocol": {
+      "message": "Protokol"
+   },
+   "lblRefreshInterval": {
+      "message": "Interval obnovy (sekundy)"
+   },
+   "lblUpdateInBackground": {
+      "message": "Aktualizovať stav preberania na pozadí (potrebné pre upozornenia)."
+   },
+   "lblUsername": {
+      "message": "Užívateľské meno"
+   },
+   "loggingIn": {
+      "message": "Prihlasovanie..."
+   },
+   "maxNumberOfTasksWarning": {
+      "message": "Download Station obsahuje viac ako $limit$ preberaní. Nové položky sa zobrazia až potom ako odstránite tie staršie.",
+      "placeholders": {
+         "limit": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "newVersionAvailable": {
+      "message": "Nová verzia rozšírenia Synology Download Station je k dispozícií. Kliknite sem na preberanie najnovšej verzie"
+   },
+   "noActiveTasks": {
+      "message": "Žiadne aktívne úlohy sťahovania"
+   },
+   "numberTasksFinished": {
+      "message": "$numberOfTasks$ úlohy dokončené",
+      "placeholders": {
+         "numberOfTasks": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "placeholderDomain": {
+      "message": "napr. syno.example.com alebo 10.0.0.1"
+   },
+   "progressOf": {
+      "message": "$downloadedSize$ z $totalSize$",
+      "placeholders": {
+         "downloadedSize": {
+            "content": "$1",
+            "example": "13.54MB"
+         },
+         "totalSize": {
+            "content": "$2",
+            "example": "20MB"
+         }
+      }
+   },
+   "settingsGroupConnection": {
+      "message": "Spojenie"
+   },
+   "settingsGroupHelp": {
+      "message": "Pomoc"
+   },
+   "settingsGroupOther": {
+      "message": "Iné nastavenia"
+   },
+   "settingsSaved": {
+      "message": "Nastavenia uložené"
+   },
+   "settingsSavedMessage": {
+      "message": "Zmeny boli úspešne uložené."
+   },
+   "task_status_broken_link": {
+      "message": "Nefunkčný odkaz"
+   },
+   "task_status_destination_denied": {
+      "message": "Prístup k cieľovému adresáru bol zamietnutý"
+   },
+   "task_status_destination_not_exist": {
+      "message": "Cieľový adresár neexistuje"
+   },
+   "task_status_disk_full": {
+      "message": "Plný disk"
+   },
+   "task_status_downloading": {
+      "message": "Sťahovanie"
+   },
+   "task_status_error": {
+      "message": "Chyba"
+   },
+   "task_status_extract_failed": {
+      "message": "Rozbaľovanie neúspešné"
+   },
+   "task_status_extract_failed_disk_full": {
+      "message": "Rozbaľovanie neúspešné: plný disk"
+   },
+   "task_status_extract_failed_invalid_archive": {
+      "message": "Rozbaľovanie neúspešné: neplatný archýv"
+   },
+   "task_status_extract_failed_quota_reached": {
+      "message": "Rozbaľovanie neúspešné: naplnená kvóta"
+   },
+   "task_status_extract_failed_wrong_password": {
+      "message": "Rozbaľovanie neúspešné: neplatné heslo"
+   },
+   "task_status_extracting": {
+      "message": "Rozbaľovanie"
+   },
+   "task_status_file_not_exist": {
+      "message": "Súbor neexistuje"
+   },
+   "task_status_filehosting_waiting": {
+      "message": "Čakanie na preberanie"
+   },
+   "task_status_finished": {
+      "message": "Dokončené"
+   },
+   "task_status_finishing": {
+      "message": "Dokončovanie"
+   },
+   "task_status_hash_checking": {
+      "message": "Overovanie"
+   },
+   "task_status_missing_python": {
+      "message": "Balíček Python nie je nainštalovaný"
+   },
+   "task_status_paused": {
+      "message": "Pozastavené"
+   },
+   "task_status_quota_reached": {
+      "message": "Dosiahnutá Kvóta"
+   },
+   "task_status_required_premium_account": {
+      "message": "Vyžadovaný prémiový účet"
+   },
+   "task_status_seeding": {
+      "message": "Seedovanie"
+   },
+   "task_status_timeout": {
+      "message": "Čas pre spojenie vypršal"
+   },
+   "task_status_torrent_duplicate": {
+      "message": "Duplicitný torrent"
+   },
+   "task_status_torrent_invalid": {
+      "message": "Neplatný torrent"
+   },
+   "task_status_unknown": {
+      "message": "Neznámy stav"
+   },
+   "task_status_waiting": {
+      "message": "Čakanie"
+   },
+   "testDialogFailed": {
+      "message": "Test zlyhal"
+   },
+   "testDialogSuccess": {
+      "message": "Spojenie úspešné"
+   },
+   "testResultSuccess": {
+      "message": "Vaše spojenie funguje! Uložte nastavenia pre začatie používania rozšírenia."
+   },
+   "textDirection": {
+      "message": "ltr"
+   },
+   "tooltipDomain": {
+      "message": "Doménová alebo IP adresa váško DiskStation. Toto môže byť interná alebo esterná IP adresa (napr. 10.0.0.1). Doménové meno vložte bez http:// alebo https:// (napr. syno.example.com)"
+   },
+   "tooltipEmail": {
+      "message": "Možete vložiť svoju emailovú adresu ak ste prispeli cez PayPal. Toto vypne mesačné upozornenie."
+   },
+   "tooltipOpenWithDownloadStation": {
+      "message": "Použiť rozšírenie Download Station na otvorenie vyznačených typov dole."
+   },
+   "tooltipPort": {
+      "message": "Toto je ten istý port ktorý využívate na prístup k DSM. Predvolený port je 5000 pre HTTP a 5001 pre HTTPS. Budete musieť tento port presmerovať ak si prajete používať toto rozšírenie pripojený k inej sieti ako je sieť vášho DiskStation."
+   },
+   "tooltipProtocol": {
+      "message": "Uveďte či si prajete použiť HTTP alebo zabezpečené HTTPS spojenie. HTTPS musí byť povolené v DSM a je podporované vo všetkých verziách DSM s výnimkou DSM4.0-2166, 2197 a 2198. Aktualizujte svoj ak máte jednu z týchto verzií."
+   },
+   "tooltipUsername": {
+      "message": "Vložte užívateľské meno vásko DiskStation účtu. Tento účet musí mať povolenie na použitie Download Station."
+   },
+   "urlFormAddBtn": {
+      "message": "Pridať"
+   },
+   "urlInputPlaceholder": {
+      "message": "Zadajte adresu URL"
+   }
+}

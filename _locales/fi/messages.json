@@ -1,0 +1,375 @@
+{
+   "api_error_accountDisabled": {
+      "message": "Käyttäjätili on poistettu käytöstä."
+   },
+   "api_error_apiDoesNotExist": {
+      "message": "Download Station ei ole käynnissä tai se on liian vanha versio."
+   },
+   "api_error_couldNotConnect": {
+      "message": "DiskStation:iin ei voida yhdistää."
+   },
+   "api_error_destinationDenied": {
+      "message": "Käyttäjällä ei ole oikeutta ladata kohdekansioon."
+   },
+   "api_error_destinationDoesNotExist": {
+      "message": "Kohdekansiota ei ole olemassa."
+   },
+   "api_error_failedToAuthenticateVerificationCode": {
+      "message": "Käyttäjän tunnistus on kaksivaiheinen. Tämä laajennus ei tue kaksivaiheista tunnistautumista."
+   },
+   "api_error_featureNotSupported": {
+      "message": "Download Station versiosi ei tue tätä ominaisuutta."
+   },
+   "api_error_fileUploadFailed": {
+      "message": "Tiedoston lähetys Download Station:iin epäonnistui."
+   },
+   "api_error_invalidParameter": {
+      "message": "Tuntematon virhe."
+   },
+   "api_error_invalidTaskAction": {
+      "message": "Toiminto ei ole sallittu tässä tehtävässä"
+   },
+   "api_error_invalidUsernameOrPassword": {
+      "message": "Virheellinen käyttäjätunnus tai salasana."
+   },
+   "api_error_magnetTorrentNotFound": {
+      "message": "Magnet linkin osoittamaa torrent tiedostoa ei löydy"
+   },
+   "api_error_maxNumberOfTasksReached": {
+      "message": "Download Station yhtäaikaisten tehtävien määrä on täyttynyt."
+   },
+   "api_error_methodDoesNotExist": {
+      "message": "Download Station versiosi ei tue tätä ominaisuutta."
+   },
+   "api_error_noDefaultDestinationSet": {
+      "message": "Latauskansiota ei ole määritetty. Määritä kansio Download Station asetuksissa."
+   },
+   "api_error_permissionDenied": {
+      "message": "Download Station käyttöoikeus puuttuu."
+   },
+   "api_error_requiredApisNotAvailable": {
+      "message": "Download Station ei ole käynnissä tai se on liian vanha versio."
+   },
+   "api_error_twoStepVerificationCodeRequired": {
+      "message": "Käyttäjän tunnistus on kaksivaiheinen. Tämä laajennus ei tue kaksivaiheista tunnistautumista."
+   },
+   "api_error_unknownError": {
+      "message": "Tuntematon virhe."
+   },
+   "btnAddTask": {
+      "message": "Lisää lataustehtävä"
+   },
+   "btnCancel": {
+      "message": "Peruuta"
+   },
+   "btnClearQueue": {
+      "message": "Tyhjennä valmistuneet lataustehtävät"
+   },
+   "btnOpenDownloadStation": {
+      "message": "Avaa Download Station www-käyttöliittymä"
+   },
+   "btnPause": {
+      "message": "Pysäytä"
+   },
+   "btnPauseAll": {
+      "message": "Pysäytä kaikki"
+   },
+   "btnRemove": {
+      "message": "Poista"
+   },
+   "btnResume": {
+      "message": "Jatka"
+   },
+   "btnResumeAll": {
+      "message": "Jatka kaikkia"
+   },
+   "btnSaveSettings": {
+      "message": "Tallenna asetukset"
+   },
+   "btnStartSeeding": {
+      "message": "Aloita jakaminen"
+   },
+   "btnTestConnection": {
+      "message": "Testaa yhteys"
+   },
+   "chromeExtensionDescription": {
+      "message": "Hallitse Synology DiskStation latauksiasi selaimella."
+   },
+   "chromeExtensionName": {
+      "message": "Synology Download Station Google Chrome™:lle"
+   },
+   "clickToConfigure": {
+      "message": "Klikkaa tästä syöttääksesi yhteysasetukset."
+   },
+   "contextMenuDownloadAdvanced": {
+      "message": "Lataa lisäasetuksilla..."
+   },
+   "contextMenuDownloadOn": {
+      "message": "Lataa kohteella $deviceName$",
+      "placeholders": {
+         "deviceName": {
+            "content": "$1",
+            "example": "MyDiskStation"
+         }
+      }
+   },
+   "dialogAdvancedBtnAddDownload": {
+      "message": "Lisää lataus"
+   },
+   "dialogAdvancedBtnCancel": {
+      "message": "Peruuta"
+   },
+   "dialogAdvancedLblPassword": {
+      "message": "Salasana"
+   },
+   "dialogAdvancedLblUnzipPassword": {
+      "message": "Purkamisen salasana"
+   },
+   "dialogAdvancedLblUrls": {
+      "message": "URL"
+   },
+   "dialogAdvancedLblUsername": {
+      "message": "Käyttäjätunnus"
+   },
+   "dialogAdvancedTitle": {
+      "message": "Lisää lataus"
+   },
+   "dialogAdvancedTooltipPassword": {
+      "message": "HTTP tai FTP salasana (vapaaehtoinen)"
+   },
+   "dialogAdvancedTooltipUnzipPassword": {
+      "message": "Syötä salasana pakattujen tiedostojen purkua varten (vapaaehtoinen, automaattinen purku voidaan ottaa käyttöön Download Station:n asetuksista)"
+   },
+   "dialogAdvancedTooltipUnzipPasswordUnsupportedMessage": {
+      "message": "DSM versio ei tue purkamisen salanaa. Päivitä DSM versioon 4.2 tai uudempaan käyttääksesi purkamisen salasanaa."
+   },
+   "dialogAdvancedTooltipUrls": {
+      "message": "Syötä jokainen URL omalle rivilleen tai välilyönnillä erotettuna"
+   },
+   "dialogAdvancedTooltipUsername": {
+      "message": "HTTP tai FTP käyttäjätunnus (vapaaehtoinen)"
+   },
+   "donationNotification": {
+      "message": "Tämä on ilmainen laajennus, mutta kehitys vie paljon aikaa. Voit tukea laajennuksen kehitystä tekemällä lahjoituksen klikkaamalla tästä."
+   },
+   "downloadFinished": {
+      "message": "Lataus valmistunut"
+   },
+   "downloadTaskAccepted": {
+      "message": "Lataustehtävä hyväksytty"
+   },
+   "downloadTaskAdding": {
+      "message": "Lisätään lataustehtävä.."
+   },
+   "downloadTaskNotAccepted": {
+      "message": "Lataustehtävän lisääminen epäonnistui"
+   },
+   "downloadsFinished": {
+      "message": "Lataukset valmistuneet"
+   },
+   "lblDomain": {
+      "message": "Domain tai IP"
+   },
+   "lblEmail": {
+      "message": "Sähköposti"
+   },
+   "lblHideSeedingTorrents": {
+      "message": "Piilota jaettavat torrentit."
+   },
+   "lblOpenWithDownloadStation": {
+      "message": "Lataustyyppit"
+   },
+   "lblPassword": {
+      "message": "Salasana"
+   },
+   "lblPort": {
+      "message": "Portti"
+   },
+   "lblProtocol": {
+      "message": "Protokolla"
+   },
+   "lblRefreshInterval": {
+      "message": "Päivitysväli (sekuntia)"
+   },
+   "lblUpdateInBackground": {
+      "message": "Päivitä latausten tila taustalla (vaaditaan ilmoituksia varten)."
+   },
+   "lblUsername": {
+      "message": "Käyttäjätunnus"
+   },
+   "loggingIn": {
+      "message": "Kirjaudutaan sisään.."
+   },
+   "maxNumberOfTasksWarning": {
+      "message": "Download Station:ssa enemmän kuin $limit$ latausta. Uudet lataukset näytetään vasta kun poistat vanhempia.",
+      "placeholders": {
+         "limit": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "newVersionAvailable": {
+      "message": "Synology Download Station laajennuksesta on saatavilla uusi versio. Klikkaa tästä ladataksesi uusimman version."
+   },
+   "noActiveTasks": {
+      "message": "Ei aktiivisia lataustehtäviä"
+   },
+   "numberTasksFinished": {
+      "message": "$numberOfTasks$ latausta valmistunut",
+      "placeholders": {
+         "numberOfTasks": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "placeholderDomain": {
+      "message": "esim. syno.example.com tai 10.0.0.1"
+   },
+   "progressOf": {
+      "message": "$downloadedSize$ / $totalSize$",
+      "placeholders": {
+         "downloadedSize": {
+            "content": "$1",
+            "example": "13.54MB"
+         },
+         "totalSize": {
+            "content": "$2",
+            "example": "20MB"
+         }
+      }
+   },
+   "settingsGroupConnection": {
+      "message": "Yhteys"
+   },
+   "settingsGroupHelp": {
+      "message": "Ohje"
+   },
+   "settingsGroupOther": {
+      "message": "Muut asetukset"
+   },
+   "settingsSaved": {
+      "message": "Asetukset tallennettu"
+   },
+   "settingsSavedMessage": {
+      "message": "Muutokset tallennettu onnistuneesti."
+   },
+   "task_status_broken_link": {
+      "message": "Virheellinen linkki"
+   },
+   "task_status_destination_denied": {
+      "message": "Ei käyttöoikeutta kohdekansioon"
+   },
+   "task_status_destination_not_exist": {
+      "message": "Kohdekansiota ei ole olemassa"
+   },
+   "task_status_disk_full": {
+      "message": "Levy täynnä"
+   },
+   "task_status_downloading": {
+      "message": "Ladataan"
+   },
+   "task_status_error": {
+      "message": "Virhe"
+   },
+   "task_status_extract_failed": {
+      "message": "Purkaminen epäonnistui"
+   },
+   "task_status_extract_failed_disk_full": {
+      "message": "Purkaminen epäonnistui: levy täynnä"
+   },
+   "task_status_extract_failed_invalid_archive": {
+      "message": "Purkaminen epäonnistui: virheellinen paketti"
+   },
+   "task_status_extract_failed_quota_reached": {
+      "message": "Purkaminen epäonnistui: kiintiö täynnä"
+   },
+   "task_status_extract_failed_wrong_password": {
+      "message": "Purkaminen epäonnistui: virheellinen salasana"
+   },
+   "task_status_extracting": {
+      "message": "Puretaan"
+   },
+   "task_status_file_not_exist": {
+      "message": "Tiedostoa ei löydy"
+   },
+   "task_status_filehosting_waiting": {
+      "message": "Odotetaan latausta"
+   },
+   "task_status_finished": {
+      "message": "Valmis"
+   },
+   "task_status_finishing": {
+      "message": "Viimeistellään"
+   },
+   "task_status_hash_checking": {
+      "message": "Tarkistetaan"
+   },
+   "task_status_missing_python": {
+      "message": "Python ei ole asennettu"
+   },
+   "task_status_paused": {
+      "message": "Pysäytetty"
+   },
+   "task_status_quota_reached": {
+      "message": "Kiintiö täynnä"
+   },
+   "task_status_required_premium_account": {
+      "message": "Premium tili vaaditaan"
+   },
+   "task_status_seeding": {
+      "message": "Jaetaan"
+   },
+   "task_status_timeout": {
+      "message": "Yhteyden aikakatkaisu"
+   },
+   "task_status_torrent_duplicate": {
+      "message": "Duplikaatti torrent"
+   },
+   "task_status_torrent_invalid": {
+      "message": "Virheellinen torrent"
+   },
+   "task_status_unknown": {
+      "message": "Tuntematon"
+   },
+   "task_status_waiting": {
+      "message": "Odotetaan"
+   },
+   "testDialogFailed": {
+      "message": "Testaus epäonnistui"
+   },
+   "testDialogSuccess": {
+      "message": "Yhteys toimii"
+   },
+   "testResultSuccess": {
+      "message": "Yhteys toimii! Tallenna asetukset aloittaaksesi laajennuksen käytön."
+   },
+   "textDirection": {
+      "message": "ltr"
+   },
+   "tooltipDomain": {
+      "message": "DiskStation domain tai IP-osoite. Voi olla yksityinen tai julkinen IP-osoite (esim. 10.0.0.1) tai domain ilman etuliitteitä http:// tai https:// (esim. syno.example.com)"
+   },
+   "tooltipEmail": {
+      "message": "Voit syöttää sähköpostiosoitteesi, jos olet tehnyt PayPal lahjoituksen. Tämä poistaa kuukausittaisen muistutuksen käytöstä."
+   },
+   "tooltipOpenWithDownloadStation": {
+      "message": "Valitut lataustyyppit avataan Download Station laajennuksella."
+   },
+   "tooltipPort": {
+      "message": "Tämä on sama portti jota DSM web-käyttöliittymä käyttää. Oletukset ovat 5000 HTTP ja 5001 HTTPS. Tämä portti pitää olla ohjattuna, jos käytät tätä laajennusta eri verkosta kuin missä DiskStation on."
+   },
+   "tooltipProtocol": {
+      "message": "Valitse HTTP tai suojattu HTTPS. HTTPS on oltava aktivoitu DSM:ssa ja se on tuettu muissa versioissa paitsi DSM4.0-2166, 2197 ja 2198. Päivitä DiskStation jos käytössäsi on jokin näistä versioista."
+   },
+   "tooltipUsername": {
+      "message": "Syötä DiskStation käyttäjätunnus. Download Station on oltava valittuna käyttöoikeuksista."
+   },
+   "urlFormAddBtn": {
+      "message": "Lisää"
+   },
+   "urlInputPlaceholder": {
+      "message": "Syötä latauksen URL"
+   }
+}

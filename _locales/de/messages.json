@@ -1,0 +1,375 @@
+{
+   "api_error_accountDisabled": {
+      "message": "Dieser Benutzer ist deaktiviert."
+   },
+   "api_error_apiDoesNotExist": {
+      "message": "Ihr Download Station Paket wird nicht ausgeführt oder ist zu alt."
+   },
+   "api_error_couldNotConnect": {
+      "message": "Verbindung zu DiskStation fehlgeschlagen."
+   },
+   "api_error_destinationDenied": {
+      "message": "Dieser Benutzer hat keine Berechtigung in den ausgewählten Zielordner herunterzuladen."
+   },
+   "api_error_destinationDoesNotExist": {
+      "message": "Der Zielordner existiert nicht."
+   },
+   "api_error_failedToAuthenticateVerificationCode": {
+      "message": "Dieser Benutzer hat zweistufige Authentifizierung aktiviert. Diese Erweiterung unterstützt nur Konten ohne Zwei-Schritt-Authentifizierung."
+   },
+   "api_error_featureNotSupported": {
+      "message": "Ihre Download Station Version unterstützt dieses Feature nicht."
+   },
+   "api_error_fileUploadFailed": {
+      "message": "Hochladen der Datei zur Download Station fehlgeschlagen."
+   },
+   "api_error_invalidParameter": {
+      "message": "Ein unbekannter Fehler ist aufgetreten."
+   },
+   "api_error_invalidTaskAction": {
+      "message": "Aktion für diese Aufgabe nicht unterstützt."
+   },
+   "api_error_invalidUsernameOrPassword": {
+      "message": "Falscher Benutzername oder Passwort."
+   },
+   "api_error_magnetTorrentNotFound": {
+      "message": "Eine Torrent-Datei für den Magnet-Link konnte nicht gefunden werden."
+   },
+   "api_error_maxNumberOfTasksReached": {
+      "message": "Die maximale Anzahl an Aufgaben der Download Station wurde erreicht."
+   },
+   "api_error_methodDoesNotExist": {
+      "message": "Ihre Download Station Version unterstützt dieses Feature nicht."
+   },
+   "api_error_noDefaultDestinationSet": {
+      "message": "Es ist kein Standard-Zielordner für Download Station eingestellt. Der Standard-Zielordner muss in der Download Station-Konfiguration eingestellt werden."
+   },
+   "api_error_permissionDenied": {
+      "message": "Dieser Benutzer hat keine Berechtigung, die Download Station zu benutzen"
+   },
+   "api_error_requiredApisNotAvailable": {
+      "message": "Ihr Download Station Paket wird nicht ausgeführt oder ist zu alt."
+   },
+   "api_error_twoStepVerificationCodeRequired": {
+      "message": "Dieser Benutzer hat zweistufige Authentifizierung aktiviert. Diese Erweiterung unterstützt nur Konten ohne Zwei-Schritt-Authentifizierung."
+   },
+   "api_error_unknownError": {
+      "message": "Ein unbekannter Fehler ist aufgetreten."
+   },
+   "btnAddTask": {
+      "message": "Aufgabe Hinzufügen"
+   },
+   "btnCancel": {
+      "message": "Abbrechen"
+   },
+   "btnClearQueue": {
+      "message": "Fertige Aufgaben aus Liste entfernen"
+   },
+   "btnOpenDownloadStation": {
+      "message": "Download Station Weboberfläche öffnen"
+   },
+   "btnPause": {
+      "message": "Pausieren"
+   },
+   "btnPauseAll": {
+      "message": "Alle pausieren"
+   },
+   "btnRemove": {
+      "message": "Löschen"
+   },
+   "btnResume": {
+      "message": "Fortsetzten"
+   },
+   "btnResumeAll": {
+      "message": "Alle fortsetzen"
+   },
+   "btnSaveSettings": {
+      "message": "Speichern"
+   },
+   "btnStartSeeding": {
+      "message": "Starte seeding"
+   },
+   "btnTestConnection": {
+      "message": "Verbindung testen"
+   },
+   "chromeExtensionDescription": {
+      "message": "Verwalte die Downloads der Synology DiskStation in deinem Browser."
+   },
+   "chromeExtensionName": {
+      "message": "Synology Download Station für Google Chrome™"
+   },
+   "clickToConfigure": {
+      "message": "Klicken Sie hier, um Ihre Verbindungs-Einstellungen festzulegen."
+   },
+   "contextMenuDownloadAdvanced": {
+      "message": "Erweiterte Download Einstellungen…"
+   },
+   "contextMenuDownloadOn": {
+      "message": "Downloade mit $deviceName$",
+      "placeholders": {
+         "deviceName": {
+            "content": "$1",
+            "example": "MyDiskStation"
+         }
+      }
+   },
+   "dialogAdvancedBtnAddDownload": {
+      "message": "Download hinzufügen"
+   },
+   "dialogAdvancedBtnCancel": {
+      "message": "Abbrechen"
+   },
+   "dialogAdvancedLblPassword": {
+      "message": "Passwort"
+   },
+   "dialogAdvancedLblUnzipPassword": {
+      "message": "Unzip Passwort"
+   },
+   "dialogAdvancedLblUrls": {
+      "message": "URL's"
+   },
+   "dialogAdvancedLblUsername": {
+      "message": "Benutzername"
+   },
+   "dialogAdvancedTitle": {
+      "message": "Erweiterter Download"
+   },
+   "dialogAdvancedTooltipPassword": {
+      "message": "HTTP oder FTP Passwort (optional)"
+   },
+   "dialogAdvancedTooltipUnzipPassword": {
+      "message": "Füge ein Passwort zum Entpacken von komprimierten Dateien ein (optional, automatisches Entpacken kann in den Download Station Einstellungen aktiviert werden)"
+   },
+   "dialogAdvancedTooltipUnzipPasswordUnsupportedMessage": {
+      "message": "Ihre DSM Version unterstützt keine Unzip Passwörter. Sie brauchen DSM 4.2 oder neuer, um ein Unzip Passwort verwenden zu können."
+   },
+   "dialogAdvancedTooltipUrls": {
+      "message": "Jede URL in einer eigenen Zeile oder durch einen Abstand getrennt hinzufügen"
+   },
+   "dialogAdvancedTooltipUsername": {
+      "message": "HTTP oder FTP Benutzername (optional)"
+   },
+   "donationNotification": {
+      "message": "Dies ist eine kostenlose Erweiterung, aber die Entwicklung kostet viel Zeit. Bitte überlege Dir, ob Du nicht etwas spenden willst, um diese Erweiterung zu unterstützen. Klicke hier, um zu spenden."
+   },
+   "downloadFinished": {
+      "message": "Download ist fertig"
+   },
+   "downloadTaskAccepted": {
+      "message": "Download Aufgabe hinzugefügt"
+   },
+   "downloadTaskAdding": {
+      "message": "Aufgabe hinzufügen.."
+   },
+   "downloadTaskNotAccepted": {
+      "message": "Hinzufügen der Aufgabe fehlgeschlagen"
+   },
+   "downloadsFinished": {
+      "message": "Downloads sind fertig"
+   },
+   "lblDomain": {
+      "message": "Adresse oder IP"
+   },
+   "lblEmail": {
+      "message": "E-Mail"
+   },
+   "lblHideSeedingTorrents": {
+      "message": "Verstecke seeding Torrents."
+   },
+   "lblOpenWithDownloadStation": {
+      "message": "Öffnen mit Download Station"
+   },
+   "lblPassword": {
+      "message": "Passwort"
+   },
+   "lblPort": {
+      "message": "Port"
+   },
+   "lblProtocol": {
+      "message": "Protokoll"
+   },
+   "lblRefreshInterval": {
+      "message": "Aktualisierungsintervall"
+   },
+   "lblUpdateInBackground": {
+      "message": "Aktualisiere den Download-Status im Hintergrund (wird für Benachrichtigungen benötigt)."
+   },
+   "lblUsername": {
+      "message": "Benutzer"
+   },
+   "loggingIn": {
+      "message": "Anmelden..."
+   },
+   "maxNumberOfTasksWarning": {
+      "message": "Download Station enthält mehr als $limit$ Downloads. Neue Einträge werden nur angezeigt, wenn Sie ältere entfernen.",
+      "placeholders": {
+         "limit": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "newVersionAvailable": {
+      "message": "Eine neue Version von Synology Download Station ist verfügbar. Klicke hier um die neuste Version zu laden."
+   },
+   "noActiveTasks": {
+      "message": "Keine aktiven Downloads"
+   },
+   "numberTasksFinished": {
+      "message": "$numberOfTasks$ Aufgaben fertiggestellt",
+      "placeholders": {
+         "numberOfTasks": {
+            "content": "$1",
+            "example": "4"
+         }
+      }
+   },
+   "placeholderDomain": {
+      "message": "z.B. syno.example.com oder 10.0.0.1"
+   },
+   "progressOf": {
+      "message": "$downloadedSize$ von $totalSize$",
+      "placeholders": {
+         "downloadedSize": {
+            "content": "$1",
+            "example": "13.54MB"
+         },
+         "totalSize": {
+            "content": "$2",
+            "example": "20MB"
+         }
+      }
+   },
+   "settingsGroupConnection": {
+      "message": "Verbindung"
+   },
+   "settingsGroupHelp": {
+      "message": "Hilfe"
+   },
+   "settingsGroupOther": {
+      "message": "Weitere Einstellungen"
+   },
+   "settingsSaved": {
+      "message": "Einstellungen gespeichert"
+   },
+   "settingsSavedMessage": {
+      "message": "Ihre Änderungen wurden erfolgreich gespeichert."
+   },
+   "task_status_broken_link": {
+      "message": "Ungültiger Link"
+   },
+   "task_status_destination_denied": {
+      "message": "Berechtigung für Zielordner fehlt"
+   },
+   "task_status_destination_not_exist": {
+      "message": "Zielordner existiert nicht"
+   },
+   "task_status_disk_full": {
+      "message": "Festplatte voll"
+   },
+   "task_status_downloading": {
+      "message": "Lädt herunter"
+   },
+   "task_status_error": {
+      "message": "Fehler"
+   },
+   "task_status_extract_failed": {
+      "message": "Entpacken fehlgeschlagen"
+   },
+   "task_status_extract_failed_disk_full": {
+      "message": "Entpacken fehlgeschlagen: Festplatte voll"
+   },
+   "task_status_extract_failed_invalid_archive": {
+      "message": "Entpacken fehlgeschlagen: ungültiges Archiv"
+   },
+   "task_status_extract_failed_quota_reached": {
+      "message": "Entpacken fehlgeschlagen: Quota erreicht"
+   },
+   "task_status_extract_failed_wrong_password": {
+      "message": "Entpacken fehlgeschlagen: falsches Passwort"
+   },
+   "task_status_extracting": {
+      "message": "Entpacken"
+   },
+   "task_status_file_not_exist": {
+      "message": "Datei existiert nicht"
+   },
+   "task_status_filehosting_waiting": {
+      "message": "Wartet auf Download"
+   },
+   "task_status_finished": {
+      "message": "Fertig"
+   },
+   "task_status_finishing": {
+      "message": "Fertigstellen"
+   },
+   "task_status_hash_checking": {
+      "message": "Überprüfen"
+   },
+   "task_status_missing_python": {
+      "message": "Python package nicht installiert"
+   },
+   "task_status_paused": {
+      "message": "Pausiert"
+   },
+   "task_status_quota_reached": {
+      "message": "Quota erreicht"
+   },
+   "task_status_required_premium_account": {
+      "message": "Premium Account nötig"
+   },
+   "task_status_seeding": {
+      "message": "Seeding"
+   },
+   "task_status_timeout": {
+      "message": "Verbindungs-Timeout"
+   },
+   "task_status_torrent_duplicate": {
+      "message": "Doppelter Torrent"
+   },
+   "task_status_torrent_invalid": {
+      "message": "Ungültige Torrent-Datei"
+   },
+   "task_status_unknown": {
+      "message": "Unbekannter Status"
+   },
+   "task_status_waiting": {
+      "message": "Wartet"
+   },
+   "testDialogFailed": {
+      "message": "Test fehlgeschlagen"
+   },
+   "testDialogSuccess": {
+      "message": "Verbindung erfolgreich"
+   },
+   "testResultSuccess": {
+      "message": "Ihre Verbindung funktioniert! Speichern Sie Ihre Einstellungen, um die Erweiterung zu benutzen."
+   },
+   "textDirection": {
+      "message": "ltr"
+   },
+   "tooltipDomain": {
+      "message": "Domain-Name oder IP-Adresse Ihrer DiskStation. Domain-Namen ohne http:// or https:// eingeben (z.B. syno.example.com)."
+   },
+   "tooltipEmail": {
+      "message": "Sie können hier Ihre E-Mail-Adresse eingeben, wenn Sie mit PayPal gespendet haben. Damit wird der monatliche Hinweis deaktiviert."
+   },
+   "tooltipOpenWithDownloadStation": {
+      "message": "Download Station-Erweiterung benutzen, um die unten ausgewählten Typen zu öffnen."
+   },
+   "tooltipPort": {
+      "message": "Dies ist der Port, den Sie verwenden, um auf den DSM Ihrer DiskStation zuzugreifen. Der Standard-Port ist 5000 für HTTP und 5001 für HTTPS. Falls Sie diese Erweiterung verwenden möchten, wenn Sie nicht im gleichen Netzwerk sind wie Ihre DiskStation, müssen Sie eine Port-Weiterleitung einrichten."
+   },
+   "tooltipProtocol": {
+      "message": "Geben Sie an, ob Sie HTTP oder sicheres HTTPS verwenden möchten. HTTPS muss im DSM aktiviert werden und wird von allen Versionen von DSM außer DSM4.0-2166, 2197 und 2198 unterstützt. Aktualisieren Sie Ihre DiskStation, wenn Sie eine dieser Versionen haben."
+   },
+   "tooltipUsername": {
+      "message": "Benutzername eines DiskStation-Accounts eingeben. Dieser Account muss Berechtigungen für die Download Station haben."
+   },
+   "urlFormAddBtn": {
+      "message": "Hinzufügen"
+   },
+   "urlInputPlaceholder": {
+      "message": "Fügen sie hier Download URL ein."
+   }
+}
